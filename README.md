@@ -1,41 +1,28 @@
-## Password Generator
+# Password Generator
 
-# Instructions
+### Overview
 
-The program will ask:
-```
-How many letters would you like in your password?
-```
-```
-How many symbols would you like?
-```
-```
-How many numbers would you like?
-```
-The objective is to take the inputs from the user to these questions and then generate a random password. Use your knowledge about Python lists and loops to complete the challenge. 
+A simple yet powerful password generator built with Python. It allows users to generate strong, random passwords to enhance their online security.
 
-# Easy Version (Step 1)
+### Getting Started
 
-Generate the password in sequence. If the user wants 
-* 4 letters
-* 2 symbols and
-* 3 numbers
+To use the password generator, clone the repository and run the password_generator.py file in your Python environment.
 
-then the password might look like this: 
+    git clone https://github.com/nadinejackson1/password-generator.git
+    cd password-generator
+    python password_generator.py
 
-```
-fgdx$*924
-```
-You can see that all the letters are together. All the symbols are together and all the numbers follow each other as well. Try to solve this problem first. 
+### Usage
 
-# Hard Version (Step 2)
+Upon running the password_generator.py script, you will be prompted to enter the desired length and the number of special characters and numbers you want in your password. The script will then generate a strong, random password based on your input.
 
-When you've completed the easy version, you're ready to tackle the hard version. In the advanced version of this project the final password does not follow a pattern. So the example above might look like this:
-```
-x$d24g*f9
-```
-And every time you generate a password, the positions of the symbols, numbers, and letters are different. 
+Example:
 
-# Solution
+    Enter the desired password length: 12
+    Enter the number of special characters: 2
+    Enter the number of numbers: 3
+    Generated password: Q&3P}f@8q!L7
 
-[https://replit.com/@appbrewery/password-generator-end](https://replit.com/@appbrewery/password-generator-end)
+### Customization
+
+You can modify the password_generator.py file to add or remove specific characters, or to change the password generation logic as per your requirements.
